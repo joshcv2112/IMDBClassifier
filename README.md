@@ -1,7 +1,4 @@
-## Intelligent Systems Final Project
 ## Joshua Vaughan
-## A01490610
-
 ## IMDB Movie Review Sentiment Analysis
 
 For this project I used Deep Neural Networks to classify movie reviews from the IMDB dataset to determine their sentiment. Movies were ranked and labeled as either 1 (positive sentiment) or 0 (negative sentiment).
