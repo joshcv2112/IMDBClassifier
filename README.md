@@ -6,7 +6,7 @@ For this project I used Deep Neural Networks to classify movie reviews from the 
 ## STEP 1
 
 The processed IMDB data is stored in pickle files, but due to the large size of the dataset, they cannot be store in this repository.
-Download the pickle files from this link:__
+After cloning this repo, download the pickle files from this link:__
   https://drive.google.com/drive/u/2/folders/16HeENgcR249G_egWNpySWAjhdYj95ezj
 
 ## STEP 2 
