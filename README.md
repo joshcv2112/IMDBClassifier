@@ -6,7 +6,7 @@ For this project I used Deep Neural Networks to classify movie reviews from the 
 ## STEP 1
 
 The processed IMDB data is stored in pickle files, but due to the large size of the dataset, they cannot be store in this repository.
-Download the pickle files from this link:
+Download the pickle files from this link:__
   https://drive.google.com/drive/u/2/folders/16HeENgcR249G_egWNpySWAjhdYj95ezj
 
 ## STEP 2 
@@ -15,13 +15,13 @@ Place the folder of pickle files in the project directory, make sure it is named
 
 ## STEP 3
 
-Running this project requires either Python 2 or 3. I have run the project on both Ubuntu and Windows 10, it should work for whatever OS you are using.
+Running this project requires either Python 2 or 3. I have run the project on both Ubuntu and Windows 10, it should work for whatever OS you are using.____
 
-The following packages also need to be installed:
-  tflearn
-  tflearn.datautils
-  numpy
-  pickle
+The following packages also need to be installed:__
+  tflearn__
+  tflearn.datautils__
+  numpy__
+  pickle__
 
 ## STEP 4
 
@@ -29,17 +29,17 @@ The directory 'saved_models' contains the already trained Deep Neural Network on
 
 ## STEP 5 (optional)
 
-If you wish to re-train the network, you first must download the original data source. The IMDB data source can be dowloaded from:
-  http://ai.stanford.edu/~amaas/data/sentiment
+If you wish to re-train the network, you first must download the original data source. The IMDB data source can be dowloaded from:__
+  http://ai.stanford.edu/~amaas/data/sentiment__
 Once at the link above, click on the hyper link that says "Large Movie Review Dataset v1.0". This will download a set of 50,000 movie reviews from IMDb, half for training, and half for validation. Once downloaded, unzip the package and place it in the main project directory, also be sure this extracted folder is named "aclImdb".
 
 ## STEP 6 (optional)
 
 Now to process all the raw movie review data so it can be fed through the DNN. 
-Start the python interpreter, and run the following commands:
-  import data_preprocessing as dp
-  dp.call_prep_data()
-This may take several minutes, depending on your system hardware.
+Start the python interpreter, and run the following commands:__
+  import data_preprocessing as dp__
+  dp.call_prep_data()__
+This may take several minutes, depending on your system hardware.__
 
 ## STEP 7 (optional)
 
