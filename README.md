@@ -36,10 +36,7 @@ Once at the link above, click on the hyper link that says "Large Movie Review Da
 ## STEP 6 (optional)
 
 Now to process all the raw movie review data so it can be fed through the DNN. 
-Start the python interpreter, and run the following commands:__
-  import data_preprocessing as dp__
-  dp.call_prep_data()__
-This may take several minutes, depending on your system hardware.__
+Start the python interpreter, and run the commands "import data_preprocessing as dp" and "dp.call_prep_data()". This may take several minutes, depending on your system hardware.
 
 ## STEP 7 (optional)
 
