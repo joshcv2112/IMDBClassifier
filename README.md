@@ -15,13 +15,9 @@ Place the folder of pickle files in the project directory, make sure it is named
 
 ## STEP 3
 
-Running this project requires either Python 2 or 3. I have run the project on both Ubuntu and Windows 10, it should work for whatever OS you are using.____
+Running this project requires either Python 2 or 3. I have run the project on both Ubuntu and Windows 10, it should work for whatever OS you are using.
 
-The following packages also need to be installed:__
-  tflearn__
-  tflearn.datautils__
-  numpy__
-  pickle__
+The following packages also need to be installed: tflearn, tflearn.datautils, numpy, and pickle.
 
 ## STEP 4
 
@@ -30,7 +26,7 @@ The directory 'saved_models' contains the already trained Deep Neural Network on
 ## STEP 5 (optional)
 
 If you wish to re-train the network, you first must download the original data source. The IMDB data source can be dowloaded from:__
-  http://ai.stanford.edu/~amaas/data/sentiment__
+  http://ai.stanford.edu/~amaas/data/sentiment
 Once at the link above, click on the hyper link that says "Large Movie Review Dataset v1.0". This will download a set of 50,000 movie reviews from IMDb, half for training, and half for validation. Once downloaded, unzip the package and place it in the main project directory, also be sure this extracted folder is named "aclImdb".
 
 ## STEP 6 (optional)
